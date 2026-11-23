@@ -1,3 +1,4 @@
+
 # Tech Mate Website
 
 React + Vite + Tailwind CSS + Framer Motion + React Router.
@@ -15,7 +16,7 @@ npm run build    # production build in /dist
 - `src/data/projects.js` – projects
 
 ## Structure
-```
+```text
 src/
   components/  Navbar, Footer, PageTransition
   data/        siteConfig, team, projects
