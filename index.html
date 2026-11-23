@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tech Mate | Independent Digital Innovation Studio</title>
-    <meta name="description" content="Tech Mate is an independent digital innovation studio building intelligent applications, modern software solutions, and AI-driven systems." />
+    <title>Tech Mate (TechMate) | Digital Innovation Studio in Trichy</title>
+    <meta name="description" content="Tech Mate (TechMate) is an independent digital innovation studio in Trichy (Tiruchirappalli), Tamil Nadu, building intelligent applications, AI systems and modern software. Team: Harish, Velavendhan, Sarveswaran, Rokesh, Eswar." />
+    <meta name="geo.region" content="IN-TN" />
+    <meta name="geo.placename" content="Tiruchirappalli" />
     <meta name="theme-color" content="#101722" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href="https://tech-mate-website.pages.dev/" />
@@ -12,19 +14,49 @@
     <!-- Social sharing -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Tech Mate" />
-    <meta property="og:title" content="Tech Mate | Ideas. Engineered. Into Reality." />
-    <meta property="og:description" content="An independent digital innovation studio building intelligent applications and AI-driven systems." />
+    <meta property="og:title" content="Tech Mate (TechMate) | Digital Innovation Studio in Trichy" />
+    <meta property="og:description" content="Independent digital innovation studio in Trichy building intelligent applications and AI-driven systems." />
     <meta property="og:url" content="https://tech-mate-website.pages.dev/" />
     <meta name="twitter:card" content="summary" />
 
-    <!-- Structured data helps Google understand the business -->
+    <!-- Structured data: site name, company, location and team -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Tech Mate",
-      "url": "https://tech-mate-website.pages.dev/",
-      "description": "Independent digital innovation studio focused on intelligent applications, modern software solutions, and AI-driven systems."
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://tech-mate-website.pages.dev/#website",
+          "url": "https://tech-mate-website.pages.dev/",
+          "name": "Tech Mate",
+          "alternateName": ["TechMate", "Techmate", "Tech Mate Trichy"],
+          "publisher": { "@id": "https://tech-mate-website.pages.dev/#org" }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://tech-mate-website.pages.dev/#org",
+          "name": "Tech Mate",
+          "alternateName": ["TechMate", "Techmate"],
+          "url": "https://tech-mate-website.pages.dev/",
+          "slogan": "Ideas. Engineered. Into Reality.",
+          "description": "Independent digital innovation studio in Trichy (Tiruchirappalli), Tamil Nadu, focused on intelligent applications, modern software solutions and AI-driven systems.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Tiruchirappalli",
+            "addressRegion": "Tamil Nadu",
+            "addressCountry": "IN"
+          },
+          "areaServed": ["Tiruchirappalli", "Thanjavur", "Tamil Nadu", "India"],
+          "knowsAbout": ["Web development", "Artificial intelligence", "Automation", "Computer vision"],
+          "employee": [
+            { "@type": "Person", "name": "Harish", "jobTitle": "Business Strategy & Consulting" },
+            { "@type": "Person", "name": "Velavendhan", "jobTitle": "Project Management Office (PMO)" },
+            { "@type": "Person", "name": "Sarveswaran", "jobTitle": "Development & Quality Assurance" },
+            { "@type": "Person", "name": "Rokesh", "jobTitle": "Development & Quality Assurance" },
+            { "@type": "Person", "name": "Eswar", "jobTitle": "Customer Success & Support" }
+          ]
+        }
+      ]
     }
     </script>
 
@@ -34,6 +66,11 @@
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <h1>Tech Mate (TechMate) - Digital Innovation Studio in Trichy, Tamil Nadu</h1>
+      <p>Independent digital innovation studio building intelligent applications, modern software solutions and AI-driven systems.</p>
+      <p>Team: Harish (Business Strategy &amp; Consulting), Velavendhan (PMO), Sarveswaran (Development &amp; QA), Rokesh (Development &amp; QA), Eswar (Customer Success &amp; Support).</p>
+    </noscript>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

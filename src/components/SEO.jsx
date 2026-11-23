@@ -6,7 +6,7 @@ const SEO = ({ title, description }) => {
   useEffect(() => {
     document.title = title
       ? `${title} | ${siteConfig.companyName}`
-      : `${siteConfig.companyName} | Independent Digital Innovation Studio`;
+      : `${siteConfig.companyName} | Digital Innovation Studio in Trichy`;
     const meta = document.querySelector('meta[name="description"]');
     if (meta && description) meta.setAttribute('content', description);
   }, [title, description]);

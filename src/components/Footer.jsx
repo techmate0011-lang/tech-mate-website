@@ -7,6 +7,7 @@ const Footer = () => (
       <div className="text-center md:text-left">
         <p className="font-heading font-bold text-white">{siteConfig.companyName}</p>
         <p>{siteConfig.tagline}</p>
+        <p>Based in {siteConfig.location}</p>
       </div>
       <div className="flex gap-6">
         <Link to="/about" className="hover:text-electric transition-colors">About</Link>

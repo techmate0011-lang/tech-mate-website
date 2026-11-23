@@ -9,7 +9,8 @@ const About = () => (
     <section className="py-24 px-6">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-5xl font-heading font-bold mb-6">About {siteConfig.companyName}</h1>
-        <p className="text-gray-300 text-lg mb-12">{siteConfig.description}</p>
+        <p className="text-gray-300 text-lg mb-4">{siteConfig.description}</p>
+        <p className="text-muted mb-12">Based in {siteConfig.location}, serving clients across Tamil Nadu and beyond.</p>
 
         <h2 className="text-3xl font-heading font-bold mb-6">Our Team</h2>
         <div className="grid sm:grid-cols-2 gap-4">
