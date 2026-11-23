@@ -1,7 +1,8 @@
 export const siteConfig = {
-  companyName: "Tech Mate",
+  companyName: "Tech Mate", // Confirm and update here
   tagline: "Ideas. Engineered. Into Reality.",
   description: "An independent digital innovation studio focused on developing intelligent applications, modern software solutions, and AI-driven systems.",
-  email: "techmate0011@gmail.com",
-  web3formsKey: "796dea0a-d74c-4168-b183-4febc65093c1",
+  email: "hello@example.com", // Update with your real email
+  // Free key from https://web3forms.com (enter your email, they send you the key)
+  web3formsKey: "YOUR_ACCESS_KEY",
 };
